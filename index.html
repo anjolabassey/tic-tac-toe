@@ -14,21 +14,20 @@
         <h1> Lets play Tic-Tac-Toe</h1>
         <table>
             <tr>
-                <td class="box">X</td>
-                <td class="box">X</td>
-                <td class="box">X</td>
+                <td class="box" id="box1" onclick="playerTurn(this);"></td>
+                <td class="box" id="box2" onclick="playerTurn(this);"></td>
+                <td class="box" id="box3" onclick="playerTurn(this);"></td>
+            </tr>
+            <tr>
+                <td class="box" id="box4" onclick="playerTurn(this);"></td>
+                <td class="box" id="box5" onclick="playerTurn(this);"></td>
+                <td class="box" id="box6" onclick="playerTurn(this);"></td>
 
             </tr>
             <tr>
-                <td class="box">X</td>
-                <td class="box">X</td>
-                <td class="box">X</td>
-
-            </tr>
-            <tr>
-                <td class="box">X</td>
-                <td class="box">X</td>
-                <td class="box">X</td>
+                <td class="box" id="box7" onclick="playerTurn(this);"></td>
+                <td class="box" id="box8" onclick="playerTurn(this);"></td>
+                <td class="box" id="box9" onclick="playerTurn(this);"></td>
 
             </tr>
         </table>
@@ -36,7 +35,7 @@
     </div>
 
     <div id="panel"> 
-        <div id="winner"> Winner </div>
+        <div id="info"> Notifications </div>
         <input type="button" value="Replay" id="replay">
 
     </div>

@@ -1,9 +1,21 @@
+body {
+    background:rgb(231, 229, 240);
+   
+    
+    
+    
 
+}
 
 .container {
     margin-top: 100px;
     text-align: center; 
     padding: 10px;
+
+    h1 {
+        font-family: 'Nanum Pen Script', cursive;
+        font-size: 3em;
+    }
     
     
 }
@@ -48,16 +60,21 @@ table {
     color: black;
     padding: 5px;
     margin-top: 10px;
+    font-family: 'Nanum Pen Script', cursive;
+    background-color:rgb(238, 236, 245);
+    margin: auto 450px;
 
     #replay {
         border: none;
-        background-color: darkslategrey;
+        background-color: purple;
         color: white;
+        font-weight: bold;
         margin-top:15px;
         padding: 5px;
         height: 40px;
-        width: 60px;
+        width: 70px;
     }
+
 
 }
 

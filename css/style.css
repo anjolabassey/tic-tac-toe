@@ -1,7 +1,13 @@
+body {
+  background: #e7e5f0; }
+
 .container {
   margin-top: 100px;
   text-align: center;
   padding: 10px; }
+  .container h1 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 3em; }
 
 table {
   margin: 0 auto;
@@ -33,14 +39,18 @@ table {
   font-size: 2em;
   color: black;
   padding: 5px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-family: 'Nanum Pen Script', cursive;
+  background-color: #eeecf5;
+  margin: auto 450px; }
   #panel #replay {
     border: none;
-    background-color: darkslategrey;
+    background-color: purple;
     color: white;
+    font-weight: bold;
     margin-top: 15px;
     padding: 5px;
     height: 40px;
-    width: 60px; }
+    width: 70px; }
 
 /*# sourceMappingURL=style.css.map */

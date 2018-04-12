@@ -10,7 +10,7 @@ body {
     font-size: 3em; }
 
 table {
-  margin: 0 auto;
+  margin: auto;
   border-collapse: collapse; }
   table tr:first-child td {
     border-top: 0; }
@@ -42,7 +42,8 @@ table {
   margin-top: 10px;
   font-family: 'Nanum Pen Script', cursive;
   background-color: #eeecf5;
-  margin: auto 450px; }
+  margin: auto;
+  width: 400px; }
   #panel #replay {
     border: none;
     background-color: purple;
